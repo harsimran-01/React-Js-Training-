@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+Tells browser the document type (HTML5 here).
+<html lang="en">
+Root of the HTML document.
+
+lang="en" = means content is in English.
+
+<head>
+Container for meta info (not shown directly on page).
+
+<meta charset="UTF-8">
+Sets character encoding (UTF-8 supports most languages & symbols).
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+Makes page responsive on mobile (scales content properly).
+
+<title>Document</title>
+Title shown in browser tab.
+
+</head>
+Ends the head section.
+
+<body>
+Contains the actual content (text, images, links, etc.) visible on the webpage.
+
+</body>
+</html>
+Closes body and HTML document.
