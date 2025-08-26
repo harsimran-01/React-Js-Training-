@@ -1,0 +1,70 @@
+*{
+    background-color: rgb(233, 205, 215);
+    
+}
+
+/* p{
+    background-color: bisque;
+    color: brown;
+} */
+
+
+/* concatinating styling
+  */
+
+/* p,h3{
+    background-color: bisque;
+    color: brown;
+} */
+
+
+.high{
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+}
+
+#h4_id{
+    text-align: center;
+    font-size: 23;
+    color: blue;
+    background-color: wheat;
+}
+#h4_id2{
+    text-align: center;
+    font-size: 23;
+    color: rgb(30, 255, 0);
+    background-color: rgb(79, 53, 6);
+}
+
+/* div{
+    background-color: #d7a9a9;
+    border: rgb(25, 24, 24);
+    border-radius: 5px;
+} */
+span{
+    background-color: #710f0f;
+    font-size: 40px;
+}
+
+/* responsive designing  */
+
+.container{
+    margin: auto;
+    width: 90%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col{
+    flex-basis: 20%;
+}
+
+@media (max-width:992px) {
+    .row{
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,28 @@
-Css = cascding style sheets
-1.inline Css
-2.internal Css
-3.external Css
+Day2
+
+Css = cascding style sheets is the styling language used to add style to webpage
+
+3 ways to add css to html
+1.inline Css = added directly to html element
+2.internal Css = defined at the head 
+3.external Css = styles defined in separate file
 
 extension = .css
-css selectors (6)
+
+
+css selectors (6) -> 
+1.tag selectors 
+2.class selectors
+3.id selectors
+4.universal selectors
+
+syntax : 
+selector{
+    property : value;
+}
+
+Box model
+div container used to divide web page in sections
+block(div)and inline tag(span)
+flexboard
+grid
