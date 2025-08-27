@@ -1,0 +1,5 @@
+pseudo class - are used to select and style elements based on the position within the doc tree, without the need for adding extra classes or javascript
+
+selector:pseudo-class{
+    property:value;
+}

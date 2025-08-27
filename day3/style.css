@@ -1,0 +1,7 @@
+div p:first-child{
+    color: rgb(22, 119, 87);
+}
+
+div p:last-child{
+    color: blue;
+}
