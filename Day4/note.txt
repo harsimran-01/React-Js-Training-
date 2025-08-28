@@ -1,0 +1,13 @@
+// variables = are symbolic names for values 
+// javascipt is case sensitive 
+
+// eg = fullname or FullName or fullName ] -> are different 
+
+// syntax
+
+// var variablename = value
+// const 
+// let
+
+strings = collections of chr , numbers
+numbers , boolean , undefined 

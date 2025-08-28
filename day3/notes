@@ -3,3 +3,31 @@ pseudo class - are used to select and style elements based on the position withi
 selector:pseudo-class{
     property:value;
 }
+
+pseudo element - a pseudo element is used to style a specific part of an element.
+
+selector::pseudo-element{
+    property:value;
+}
+
+buttons
+.btn{
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: #923838;
+    cursor: pointer;
+}
+
+list
+
+
+JAVASCRIPT -
+ client side script controls a browser and its document object model (DOM),makes webpage interactive 
+ server side js = nodejs  
+Method to add js
+1.=  <script> </script>
+

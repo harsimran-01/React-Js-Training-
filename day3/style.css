@@ -1,7 +1,60 @@
 div p:first-child{
     color: rgb(22, 119, 87);
+    background-color: #efc6c6;
+    font-size: 25px;
+    padding: 20px;
 }
 
 div p:last-child{
     color: blue;
+    background-color: #cac1a1;
+    font-size: 25px;
+    padding: 20px;
+}
+
+div p:nth-child(even){
+    color: gainsboro;
+}
+
+.button{
+    color: #cac1a1;
+    background-color: rgb(151, 203, 18);
+    padding: 20px;
+}
+
+.btn{
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color: #923838;
+    cursor: pointer;
+}
+
+h1::first-letter{
+    color: #dd2727;
+}
+
+h2::first-line{
+    color: #dd2727;
+}
+
+p::before{
+    content: "Note ";
+    color: #dd2727;
+}
+
+p::after{
+    content: "read more..";
+    color: rgb(99, 99, 248);
+}
+
+li::marker{
+    color: rgb(26, 87, 67);
+}
+
+li{
+    color: #dd2727;
 }
