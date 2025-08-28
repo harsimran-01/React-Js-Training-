@@ -11,3 +11,7 @@
 
 strings = collections of chr , numbers
 numbers , boolean , undefined 
+
+find square and cube of numbers
+find sum and avg of 5 numbers
+find amount if amount is greater than or equal to  
