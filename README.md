@@ -56,7 +56,7 @@ React-Js-Training/
 
 Clone the repository:
 
-git clone https://github.com/yourusername/React-Js-Training.git
+git clone https://github.com/harsimran-01/React-Js-Training.git
 
 
 Navigate to the project folder:
