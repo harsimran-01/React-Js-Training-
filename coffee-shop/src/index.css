@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #f19509;
+  --color-primary-dark: #e86f00;
+  --color-light-orange: #f1dabf;
+  --color-dark-gray: #1a1f25;
+  --color-light-gray: #272c35;
+
+  --container-padding: 1rem;
+  --container-padding-sm: 2rem;
+
+}
+
+/* Optional: Custom utility if you want more control */
+@utility container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+
+  @media (min-width: 640px) {
+    padding-inline: var(--container-padding-sm);
+  }
+}
+
+@layer utilities{
+  .img-shadow{
+    filter: drop-shadow(40px 50px 25px #0f1115);
+  }
+  .img-shadow2{
+    filter: drop-shadow(40px 50px 25px #3030307a);
+  }
+}

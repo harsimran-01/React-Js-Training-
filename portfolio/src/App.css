@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  margin: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 80px;
+
+  position: fixed;   /* makes it fixed */
+  top: 0;            /* sticks to top */
+  left: 0;
+  right: 0;
+  z-index: 1000;     /* stays above content */
+  background: white; /* add background so text doesn’t overlap */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* subtle shadow */
+}
+
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+button{
+  all: unset;
+  width: 190px;
+  padding: 6px;
+  text-align: center;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+  background: rgb(224, 87, 87);
+  border: 2px solid black;
+  cursor: pointer;
+}
+button:hover {
+  background: rgb(200, 60, 60); /* hover effect */
+}
+
+.hero{
+  /* display: flex;
+  /* min-width: 1280px;
+  margin:0 auto; */
+  /* align-items: center;
+  height: calc(100vh - 72px); */ 
+  gap: 80px; 
+  display: flex;
+  justify-content: center;   /* centers horizontally */
+  align-items: center;       /* centers vertically */
+  height: calc(100vh - 32px); /* full screen minus navbar */
+  /* text-align: center;  */
+  gap: 80px; 
+}
+.hero-content{
+  flex: 1.2;                   /* text takes equal space */
+  max-width: 910px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero h1{
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 80px
+}
+
+.hero p{
+  font-weight: 600;
+  color: gray;
+}
+
+.hero-btn{
+  display: flex;
+  gap: 40px;
+}
+
+.hero img {
+  flex: 1;                   /* image gets more space */
+  height: 243px;        /* make image bigger */
+  width: 243px;        /* make image bigger */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+#work {
+    display: flex;
+    /* justify-content: center;  */
+    min-height: 80vh;       
+    padding: 50px 20px;
+    box-sizing: border-box;
+    flex-direction: column;  
+    align-items: center; 
+}
+
+.work-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.blog-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-work {
+    display: flex;
+    max-width: 1000px;   
+    width: 100%;
+    gap: 50px;               
+    align-items: center;
+}
+
+.work-img img {
+    width: 300px;          
+    height: auto;
+    border-radius: 10px;     
+}
+
+.work-content {
+    flex: 1;                
+}
+
+.work-content h3{
+    margin: 10px 0;
+}
+
+.work-content h5{
+  margin: 5px 0;
+  border: 1px solid black;
+  background: #000;
+  color: white;
+  display: inline-block;
+  padding: 2px;
+  border-radius: 20px;
+}
+.work-content p{
+  color: grey;
+}
+.work-content p.work-p{
+  color: rgb(87, 85, 85);
+  font-weight: 500;
+}
+
+#blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical centering */
+  align-items: center;     /* horizontal centering */    /* center text inside */
+  padding: 50px 20px;
+}
+
+.blog-heading {
+  margin-bottom: 30px;
+}
+
+.blog.content {
+  max-width: 800px; /* optional: limits paragraph width */
+  /* border: 2px solid black; */
+  padding: 20px;
+  gap: 20px;
+}
+
+.blog.content h4{
+  margin-bottom: 15px;
+  color: rgb(75, 74, 74);
+}
+
+.blog.content p{
+  color: grey;
+}
+a {
+  text-decoration: none; /* removes underline */
+  color: inherit;        /* optional: keeps the text color same as parent */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;   /* stack icons and text */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;                /* space between icons and text */
+  padding: 30px 0;
+  background: #f5f5f5;      /* optional: light background */
+}
+
+.footer-img {
+  display: flex;
+  gap: 20px;                /* spacing between social icons */
+}
+
+.footer-img img {
+  width: 40px;              /* make icons same size */
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.footer-img img:hover {
+  transform: scale(1.1);    /* hover zoom effect */
+}
+
+.footer-copywrite h4 {
+  font-size: 14px;
+  color: gray;
+  text-align: center;
+}
